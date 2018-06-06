@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/LEFT_BUTTON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/A"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/BACK_BUTTON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/S"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/FORWARD_BUTTON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/W"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/RIGHT_BUTTON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/D"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/FIRE_BUTTON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FIRE"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/EXIT_BUTTON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/exit"
+        android:visibility="invisible" />
+
+</RelativeLayout>

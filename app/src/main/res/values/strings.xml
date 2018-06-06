@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CarAndroidClient</string>
+    <string name="D">D</string>
+    <string name="W">W</string>
+    <string name="S">S</string>
+    <string name="A">A</string>
+    <string name="FIRE">FIRE</string>
+    <string name="exit">EXIT</string>
+</resources>
